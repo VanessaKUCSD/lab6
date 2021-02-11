@@ -27,4 +27,18 @@ function addProjectDetails(e) {
 	var idNumber = projectID.substr('project'.length);
 
 	console.log("User clicked on project " + idNumber);
+
+	// wasn't sure what to do for this part
+
+	// $.get("http://URL", callBackFn)
+	// var url = $.get("/project/" + idNumber, callBackFn);
+
 }
+
+// function addProject(result) {
+//   var projectHTML = '<a href="#" class="thumbnail">' +
+//     '<img src="' + result['image'] + '" class="img">' +
+//     '<p>' + result['title'] + '</p>' +
+//     '<p><small>' + result['date'] +
+//     '</small></p></a>';
+// }
